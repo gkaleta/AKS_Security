@@ -10,8 +10,6 @@ Note, you cannot programmatically grant admin consent to a Service Principal unl
 
 If you already have such a Service Principal, feel free to use that instead and skip the CreateSP.sh step. It must have the roles defined with the serviceManifest.json file.
 
-If you have a server and native app already and just need to grant consent, run the script GrantOAuthToNativeApp.py
-
 For more info on the OAuth2 Permission Granting in AAD, see the legendary [Vittorio Bertocci's Azure Active Directory Application Model book free chapter](https://www.microsoftpressstore.com/articles/article.aspx?p=2473127&seqNum=2)
 
 **If you have a server and native app already and just need to grant consent, run the script GrantOAuthToNativeApp.py**
